@@ -79,9 +79,55 @@ padding: 1%;
 .skillsText {
     width: 40%;
     list-style-position: inside;
-    margin-left: 15%;
+    margin: 3% 5% 0px 15%;
     font-size: 24px;
+    height: fit-content;
+
 }
+
+.workBox {
+    display: inline-block;
+    margin:30px;
+  }
+
+.imgOutline {
+    height:333px;
+    width: 363px;
+    border:2px solid black;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.boxInfo {
+    padding: 5px 15px 15px 15px;
+    text-align: center;
+    border: 2px solid black;
+    border-top: none;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    width: 333px;
+    height: 125;
+ }
+
+.cSTitle {
+    margin: auto;
+}
+
+.cSText {
+    margin: auto;
+}
+
+.centerBoxes {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+}
+
+
+
+
+
+
 
 
 
